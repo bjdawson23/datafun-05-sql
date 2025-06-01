@@ -67,3 +67,5 @@ git push
 ---
 
 ## P5 SQL
+  1. created data forlder for csv files
+  2. added example scripts and sql folders
