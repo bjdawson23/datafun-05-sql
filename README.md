@@ -107,7 +107,6 @@ schema design books:
     FOREIGN KEY (author_id) REFERENCES authors (author_id) -- Relationship with authors
 
 sql_create folder:
-
     01_drop_tables.sql - drop tables to restart
     02_create_tables.sql - create your database schema using sql
     03_insert_records.sql - insert at least 10 additional records into each table.
@@ -121,9 +120,9 @@ Step 5. Cleaning and Feature Engineering
 Implement SQL statements and queries to perform additional operations and use Python to execute your SQL statements. 
 
 sql_features folder:
-
     update_records.sql - update 1 or more records in a table.
     delete_records.sql - delete 1 or more records from a table.
+    01_new_column_pub_age.sql - added column show age of author when book was published
 
 db02_features.py
 
@@ -134,12 +133,11 @@ Step 6. Perform Aggregations and queries
 Implement SQL statements and queries to perform aggregations and queries.
 
 sql_queries folder:
-
-    query_aggregation.sql - use aggregation functions including COUNT, AVG, SUM.
-    query_filter.sql - use WHERE to filter data based on conditions.
-    query_sorting.sql - use ORDER BY to sort data.
-    query_group_by.sql - use GROUP BY clause (and optionally with aggregation)
-    query_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
+    01_count_books_by_author.sql - use aggregation function COUNT.
+    02_filter_by_genre.sql - use WHERE to filter data based on genre.
+    03_order_by_age.sql - use ORDER BY to sort by age of author.
+    04_group_nationality.sql - use GROUP BY nationality of author (and optionally with aggregation)
+    05_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
 
 Use Python to execute the SQL queries and maybe chart, illustrate, and/or summarize your findings:
 
