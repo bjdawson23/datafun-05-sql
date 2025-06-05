@@ -1,5 +1,5 @@
 # datafun-05-sql
-datafun-05-sql  Summer 1 - Module 4 SQL Project
+datafun-05-sql  Summer 1 - Module 5 SQL Project
 
 ## 1. Virtual Environment Management (Windows PowerShell)
 
@@ -90,7 +90,21 @@ A. Create .venv B. Activate .venv C. Install dependencies into .venv D. Select V
 
 Step 4: Schema Design and Database Initialization
 
-Design a schema with at least two related tables, including foreign key constraints. Document the schema design in your README.md.
+Design a schema with at least two related tables, including foreign key constraints. 
+schema design authors:
+    author_id TEXT PRIMARY KEY, -- Prefixed sequential ID as the primary key (e.g., AUTHOR_001)
+    name TEXT NOT NULL,         -- Author's name (mandatory field)
+    birth_year INTEGER,         -- Year of birth (optional)
+    nationality TEXT            -- Nationality of the author (optional)
+
+schema design books:
+    book_id TEXT PRIMARY KEY,   -- Prefixed sequential ID as the primary key (e.g., BOOK_001)
+    title TEXT NOT NULL,        -- Book title (mandatory field)
+    genre TEXT,                 -- Book genre (optional)
+    publication_year INTEGER,   -- Year of publication (optional)
+    author_id TEXT,             -- Foreign key linking to authors
+    author_age_at_publication INT, -- Age of Author at Publication Year (calculated: publication_year - birth_year)
+    FOREIGN KEY (author_id) REFERENCES authors (author_id) -- Relationship with authors
 
 sql_create folder:
 
