@@ -141,7 +141,7 @@ git push -u origin main
   - `02_filter_by_genre.sql` — Filter books by genre
   - `03_order_by_age.sql` — Sort by author age
   - `04_group_nationality.sql` — Count books by nationality
-  - `05_join.sql` — Count authors born before 1900
+  - `05_join_born_before_1900.sql` — Count authors born before 1900
 
 ### **Python Scripts**
 
