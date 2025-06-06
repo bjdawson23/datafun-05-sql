@@ -153,71 +153,88 @@ git push -u origin main
 
 ## 8. Data Analysis & Visualization
 
-- Use SQL for data cleaning, feature engineering, and aggregation.
-- Use Python (`pandas`, `matplotlib`) to execute SQL, summarize, and visualize results.
-- Example: `db03_queries.py` will chart, illustrate, and summarize each SQL query in the `sql_queries` folder.
-  
-Results for 01_count_books_by_author.sql:
-            author_name  book_count
-0          J.K. Rowling           2
-1         George Orwell           2
-2      David McCullough           2
-3        Mark Kurlansky           1
-4           Jane Austen           1
-5           James Joyce           1
-6         J.R.R Tolkien           1
-7        J. D. Salinger           1
-8       Herman Melville           1
-9            Harper Lee           1
-10  F. Scott Fitzgerald           1
-11            Dr. Seuss           1
-12      Charles Dickens           1
+- **SQL** is used for data cleaning, feature engineering, and aggregation.
+- **Python** (`pandas`, `matplotlib`) is used to execute SQL, summarize, and visualize results.
+- The script `db03_queries.py` will automatically chart, illustrate, and summarize each SQL query in the `sql_queries` folder.
 
-Results for 02_filter_by_genre.sql:
-                  genre  book_count
-0               Fiction           6
-1               History           3
-2               Fantasy           2
-3         Romance Novel           1
-4      Political Satire           1
-5             Dystopian           1
-6        Christmas Tale           1
-7  Childrens Literature           1
+---
 
-Results for 03_order_by_age.sql:
-            author_name  birth_year
-0          J.K. Rowling        1965
-1        Mark Kurlansky        1948
-2      David McCullough        1933
-3            Harper Lee        1926
-4        J. D. Salinger        1919
-5             Dr. Seuss        1904
-6         George Orwell        1903
-7   F. Scott Fitzgerald        1896
-8         J.R.R Tolkien        1892
-9           James Joyce        1882
-10      Herman Melville        1819
-11      Charles Dickens        1812
-12          Jane Austen        1775
+### 📊 Example Query Results & Visualizations
 
-Results for 04_group_nationality.sql:
-  nationality  book_count
-0    American           8
-1     British           4
-2     English           3
-3       Irish           1
+#### **Books by Author**
+| author_name           | book_count |
+|-----------------------|------------|
+| J.K. Rowling          | 2          |
+| George Orwell         | 2          |
+| David McCullough      | 2          |
+| Mark Kurlansky        | 1          |
+| Jane Austen           | 1          |
+| James Joyce           | 1          |
+| J.R.R Tolkien         | 1          |
+| J. D. Salinger        | 1          |
+| Herman Melville       | 1          |
+| Harper Lee            | 1          |
+| F. Scott Fitzgerald   | 1          |
+| Dr. Seuss             | 1          |
+| Charles Dickens       | 1          |
 
-Results for 05_join_born_before_1900.sql:
-   book_count  author_count
-0           6             6
+#### **Books by Genre**
+| genre                | book_count |
+|----------------------|------------|
+| Fiction              | 6          |
+| History              | 3          |
+| Fantasy              | 2          |
+| Romance Novel        | 1          |
+| Political Satire     | 1          |
+| Dystopian            | 1          |
+| Christmas Tale       | 1          |
+| Childrens Literature | 1          |
 
-![alt text](image-1.png)
+#### **Authors by Birth Year**
+| author_name           | birth_year |
+|-----------------------|------------|
+| J.K. Rowling          | 1965       |
+| Mark Kurlansky        | 1948       |
+| David McCullough      | 1933       |
+| Harper Lee            | 1926       |
+| J. D. Salinger        | 1919       |
+| Dr. Seuss             | 1904       |
+| George Orwell         | 1903       |
+| F. Scott Fitzgerald   | 1896       |
+| J.R.R Tolkien         | 1892       |
+| James Joyce           | 1882       |
+| Herman Melville       | 1819       |
+| Charles Dickens       | 1812       |
+| Jane Austen           | 1775       |
 
-![alt text](image-5.png)
+#### **Books by Nationality**
+| nationality | book_count |
+|-------------|------------|
+| American    | 8          |
+| British     | 4          |
+| English     | 3          |
+| Irish       | 1          |
 
-![alt text](image-3.png)
+#### **Authors Born Before 1900**
+| book_count | author_count |
+|------------|--------------|
+| 6          | 6            |
 
-![alt text](image-4.png)
+---
+
+### 📈 Sample Visualizations
+
+![Books by Author](image-1.png)
+*Books by each author*
+
+![Books by Genre](image-5.png)
+*Books by genre*
+
+![Authors by Birth Year](image-6.png)
+*Authors sorted by birth year*
+
+![Books by Nationality](image-4.png)
+*Books grouped by author nationality*
 
 ---
 
