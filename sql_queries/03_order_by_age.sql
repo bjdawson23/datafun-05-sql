@@ -1,7 +1,6 @@
--- Query to count the number of books written by each author
-SELECT a.name AS author_name, COUNT(b.book_id) AS book_count
+-- Query to select each author and their birth year, ordered by birth year in descending order
+-- This query retrieves the names of authors and their birth years, sorted by birth year from newest to oldest.
+SELECT a.name AS author_name, birth_year    
 FROM authors a
-LEFT JOIN books b ON a.author_id = b.author_id
-GROUP BY a.name
-ORDER BY book_count DESC;
+ORDER BY birth_year DESC;
 

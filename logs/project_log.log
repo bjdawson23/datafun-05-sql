@@ -216,3 +216,216 @@
 2025-06-06 14:46:05.521 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
 2025-06-06 14:46:05.521 | INFO     | __main__:main:58 - Queries execution completed successfully.
 2025-06-06 14:46:05.522 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:48:27.493 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:48:27.493 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:48:27.494 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:48:27.503 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:48:27.511 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:48:27.519 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:48:27.520 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:48:27.521 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:48:31.262 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:48:31.263 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:48:31.263 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:48:31.280 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:48:31.286 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\02_update_records.sql
+2025-06-06 14:48:31.291 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\03_delete_records.sql
+2025-06-06 14:48:31.291 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 14:48:31.292 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:48:38.157 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:48:38.157 | INFO     | __main__:main:36 - Starting queries execution...
+2025-06-06 14:48:38.158 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:48:38.159 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 14:48:38.160 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 14:48:38.160 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 14:48:38.161 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 14:48:38.163 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 14:48:38.163 | INFO     | __main__:main:58 - Queries execution completed successfully.
+2025-06-06 14:48:38.163 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 15:15:33.466 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:15:33.467 | INFO     | __main__:main:70 - Starting queries execution...
+2025-06-06 15:15:33.468 | INFO     | __main__:main:86 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:15:33.469 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:15:33.470 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:15:33.470 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:15:33.471 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:15:33.471 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:16:26.998 | INFO     | __main__:main:95 - Queries execution completed successfully.
+2025-06-06 15:16:26.999 | INFO     | __main__:main:100 - Database connection closed.
+2025-06-06 15:24:48.277 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:24:48.278 | INFO     | __main__:main:70 - Starting queries execution...
+2025-06-06 15:24:48.279 | INFO     | __main__:main:86 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:24:48.281 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:24:48.281 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:24:48.283 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:24:48.284 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:24:48.285 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:24:54.122 | INFO     | __main__:main:95 - Queries execution completed successfully.
+2025-06-06 15:24:54.123 | INFO     | __main__:main:100 - Database connection closed.
+2025-06-06 15:38:24.659 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:38:24.660 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:38:24.661 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:38:24.663 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:38:24.663 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:38:24.664 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:38:24.664 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:38:24.666 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:38:54.466 | INFO     | __main__:summarize_and_plot_sql_file:103 - No numeric columns to plot in C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql.
+2025-06-06 15:39:02.011 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:39:02.012 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:42:26.861 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:42:26.861 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:42:26.862 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:42:26.863 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:42:26.864 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:42:26.864 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:42:26.865 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:42:26.865 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:42:40.150 | INFO     | __main__:summarize_and_plot_sql_file:103 - No numeric columns to plot in C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql.
+2025-06-06 15:42:50.658 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:42:50.658 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:44:43.555 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:44:43.556 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:44:43.556 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:44:43.557 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:44:43.558 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:44:43.558 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:44:43.559 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:44:43.559 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:45:04.254 | INFO     | __main__:summarize_and_plot_sql_file:103 - No numeric columns to plot in C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql.
+2025-06-06 15:45:15.368 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:45:15.368 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:45:31.294 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:45:31.295 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:45:31.295 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:45:31.296 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:45:31.297 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:45:31.298 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:45:31.298 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:45:31.299 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:45:50.556 | INFO     | __main__:summarize_and_plot_sql_file:103 - No numeric columns to plot in C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql.
+2025-06-06 15:45:54.112 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:45:54.112 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:45:57.508 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:45:57.509 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:45:57.509 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:45:57.511 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:45:57.511 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:45:57.511 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:45:57.512 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:45:57.513 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:46:15.498 | INFO     | __main__:summarize_and_plot_sql_file:103 - No numeric columns to plot in C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql.
+2025-06-06 15:46:18.116 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:46:18.117 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:48:21.330 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:48:21.331 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:48:21.332 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:48:21.333 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:48:21.333 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:48:21.334 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:48:21.334 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:48:21.334 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:48:33.293 | INFO     | __main__:summarize_and_plot_sql_file:103 - No numeric columns to plot in C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql.
+2025-06-06 15:48:43.648 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:48:43.648 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:49:40.812 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:49:40.813 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:49:40.814 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:49:40.815 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:49:40.816 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:49:40.816 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:49:40.817 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:49:40.817 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:50:05.551 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:50:05.551 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:52:02.055 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:52:02.055 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:52:02.056 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:52:02.057 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:52:02.057 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:52:02.058 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:52:02.058 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:52:02.059 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 15:53:28.005 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 15:53:28.005 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 15:55:26.948 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 15:55:26.948 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 15:55:26.949 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 15:55:26.950 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 15:55:26.951 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 15:55:26.951 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 15:55:26.952 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 15:55:26.952 | ERROR    | __main__:execute_sql_file:31 - Failed to execute C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql: no such column: a.author
+2025-06-06 15:55:26.953 | ERROR    | __main__:main:139 - Error during queries execution: no such column: a.author
+2025-06-06 15:55:26.953 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 16:03:34.885 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:03:34.885 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 16:03:34.886 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 16:03:34.887 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 16:03:34.888 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 16:03:34.889 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 16:03:34.889 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 16:03:34.890 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql
+2025-06-06 16:04:12.091 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 16:04:12.092 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 16:05:19.231 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:05:19.231 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 16:05:19.232 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 16:05:19.234 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 16:05:19.234 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 16:05:19.235 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 16:05:19.235 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 16:05:19.236 | ERROR    | __main__:execute_sql_file:31 - Failed to execute C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql: near ".": syntax error
+2025-06-06 16:05:19.236 | ERROR    | __main__:main:139 - Error during queries execution: near ".": syntax error
+2025-06-06 16:05:19.236 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 16:06:18.304 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:06:18.304 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 16:06:18.305 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 16:06:18.306 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 16:06:18.307 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 16:06:18.307 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 16:06:18.308 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 16:06:18.308 | ERROR    | __main__:execute_sql_file:31 - Failed to execute C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql: no such column: COUNT
+2025-06-06 16:06:18.309 | ERROR    | __main__:main:139 - Error during queries execution: no such column: COUNT
+2025-06-06 16:06:18.309 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 16:06:32.836 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:06:32.837 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 16:06:32.837 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 16:06:32.839 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 16:06:32.839 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 16:06:32.840 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 16:06:32.840 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 16:06:32.841 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql
+2025-06-06 16:06:41.834 | INFO     | __main__:summarize_and_plot_sql_file:105 - Not enough columns to plot for C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql.
+2025-06-06 16:06:41.835 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 16:06:41.835 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 16:07:17.691 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:07:17.691 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 16:07:17.692 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 16:07:17.693 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 16:07:17.693 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 16:07:17.694 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 16:07:17.694 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 16:07:17.694 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql
+2025-06-06 16:07:41.920 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 16:07:41.921 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 16:12:04.116 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:12:04.116 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 16:12:04.117 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 16:12:04.118 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 16:12:04.119 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 16:12:04.120 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 16:12:04.120 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 16:12:04.121 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql
+2025-06-06 16:12:59.215 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 16:12:59.216 | INFO     | __main__:main:142 - Database connection closed.
+2025-06-06 16:13:07.170 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 16:13:07.170 | INFO     | __main__:main:111 - Starting queries execution...
+2025-06-06 16:13:07.171 | INFO     | __main__:main:127 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 16:13:07.172 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 16:13:07.172 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 16:13:07.173 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 16:13:07.173 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 16:13:07.173 | INFO     | __main__:execute_sql_file:29 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join_born_before_1900.sql
+2025-06-06 16:14:13.862 | INFO     | __main__:main:137 - Queries execution completed successfully.
+2025-06-06 16:14:13.863 | INFO     | __main__:main:142 - Database connection closed.
