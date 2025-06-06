@@ -98,3 +98,121 @@
 2025-06-05 15:55:37.144 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
 2025-06-05 15:55:37.144 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
 2025-06-05 15:55:37.145 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:19:08.405 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:19:08.405 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:19:08.406 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:19:08.416 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:19:08.425 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:19:08.435 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:19:08.435 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:19:08.436 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:19:13.089 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:19:13.090 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:19:13.091 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:19:13.102 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:19:13.103 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\02_update_records.sql: duplicate column name: author_age_at_publication
+2025-06-06 14:19:13.104 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-06-06 14:19:13.105 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:19:42.972 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:19:42.972 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:19:42.973 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:19:42.982 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:19:42.992 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:19:43.000 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:19:43.000 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:19:43.001 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:19:47.098 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:19:47.098 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:19:47.099 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:19:47.110 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:19:47.110 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\02_update_records.sql: duplicate column name: author_age_at_publication
+2025-06-06 14:19:47.111 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-06-06 14:19:47.112 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:19:56.953 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:19:56.954 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:19:56.955 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:19:56.956 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:19:56.966 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:19:56.974 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:19:56.974 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:19:56.975 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:19:57.969 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:19:57.969 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:19:57.970 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:19:57.981 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:19:57.982 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\02_update_records.sql: duplicate column name: author_age_at_publication
+2025-06-06 14:19:57.983 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-06-06 14:19:57.984 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:20:27.703 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:20:27.703 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:20:27.705 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:20:27.705 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:20:27.715 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:20:27.725 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:20:27.726 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:20:27.727 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:20:40.780 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:20:40.780 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:20:40.781 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:20:40.802 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:20:40.802 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Projects\datafun-05-sql\sql_features\02_update_records.sql: duplicate column name: author_age_at_publication
+2025-06-06 14:20:40.802 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-06-06 14:20:40.803 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:34:38.631 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:34:38.631 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:34:38.632 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:34:38.643 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:34:38.652 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:34:38.660 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:34:38.660 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:34:38.661 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:35:01.373 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:35:01.374 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:35:01.375 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:35:01.389 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:35:01.393 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\02_update_records.sql
+2025-06-06 14:35:01.398 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\03_delete_records.sql
+2025-06-06 14:35:01.398 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 14:35:01.399 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:37:42.346 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:37:42.347 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:37:42.347 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:37:42.363 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:37:42.371 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:37:42.379 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:37:42.380 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:37:42.380 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:37:43.969 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:37:43.969 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:37:43.970 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:37:43.980 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:37:43.985 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\02_update_records.sql
+2025-06-06 14:37:43.990 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\03_delete_records.sql
+2025-06-06 14:37:43.990 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 14:37:43.991 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:45:52.022 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:45:52.023 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-06 14:45:52.024 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:45:52.033 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-06 14:45:52.041 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-06 14:45:52.050 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-06 14:45:52.050 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-06 14:45:52.051 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-06 14:45:53.596 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:45:53.597 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-06 14:45:53.597 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:45:53.613 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-06-06 14:45:53.617 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\02_update_records.sql
+2025-06-06 14:45:53.621 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_features\03_delete_records.sql
+2025-06-06 14:45:53.621 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-06-06 14:45:53.622 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-06 14:46:05.509 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-06 14:46:05.509 | INFO     | __main__:main:36 - Starting queries execution...
+2025-06-06 14:46:05.510 | INFO     | __main__:main:52 - Connected to database: C:\Projects\datafun-05-sql\data\db.sqlite
+2025-06-06 14:46:05.517 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\01_count_books_by_author.sql
+2025-06-06 14:46:05.518 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\02_filter_by_genre.sql
+2025-06-06 14:46:05.518 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\03_order_by_age.sql
+2025-06-06 14:46:05.520 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\04_group_nationality.sql
+2025-06-06 14:46:05.521 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Projects\datafun-05-sql\sql_queries\05_join.sql
+2025-06-06 14:46:05.521 | INFO     | __main__:main:58 - Queries execution completed successfully.
+2025-06-06 14:46:05.522 | INFO     | __main__:main:63 - Database connection closed.

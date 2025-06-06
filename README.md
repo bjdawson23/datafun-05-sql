@@ -120,9 +120,9 @@ Step 5. Cleaning and Feature Engineering
 Implement SQL statements and queries to perform additional operations and use Python to execute your SQL statements. 
 
 sql_features folder:
-    update_records.sql - update 1 or more records in a table.
-    delete_records.sql - delete 1 or more records from a table.
-    01_new_column_pub_age.sql - added column show age of author when book was published
+    update_records.sql - Update title in the books table to corrected title.
+    delete_records.sql - Removed the Sporting News record in the books table .
+    01_new_column_pub_age.sql - Added column show age of author when book was published.
 
 db02_features.py
 

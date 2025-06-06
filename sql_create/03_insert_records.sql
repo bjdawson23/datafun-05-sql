@@ -26,12 +26,12 @@ INSERT INTO books (book_id, title, genre, publication_year, author_id) VALUES
     ('BOOK_006', 'The Cat in the Hat', 'Childrens Literature', 1957, 'AUTHOR_005'),
     ('BOOK_007', 'A Christmas Carol', 'Christmas Tale', 1843, 'AUTHOR_004'),
     ('BOOK_008', 'To Kill a Mockingbird', 'Fiction', 1960, 'AUTHOR_006'),
-    ('BOOK_009', '1776', 'History', 2005, 'AUTHOR_007'),
+    ('BOOK_009', '1976', 'History', 2005, 'AUTHOR_007'),
     ('BOOK_010', '1968: The Year that Rocked the World ', 'History', 2003, 'AUTHOR_008'),
     ('BOOK_011', 'The Great Gatsby', 'Fiction', 1925, 'AUTHOR_009'),
     ('BOOK_012', 'Ulysses', 'Fiction', 1922, 'AUTHOR_010'),
     ('BOOK_013', 'The Lord of the Rings', 'Fiction', 1954, 'AUTHOR_011'),
     ('BOOK_014', 'The Catcher in the Rye', 'Fiction', 1951, 'AUTHOR_012'),
     ('BOOK_015', 'Moby-Dick', 'Fiction', 1851, 'AUTHOR_013'),
-    ('BOOK_016', 'John Adams', 'History', 1960, 'AUTHOR_007');
- 
+    ('BOOK_016', 'John Adams', 'History', 1960, 'AUTHOR_007'),
+    ('BOOK_017', 'Sporting News', 'Sports', 1998, 'AUTHOR_007');

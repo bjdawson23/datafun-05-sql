@@ -1,5 +1,5 @@
 """
-Use Python to execute feature queries from the sql_features folder.
+Use Python to execute queries from the sql_queries folder.
 """
 
 # Imports from Python Standard Library
@@ -32,12 +32,12 @@ def execute_sql_file(connection, file_path) -> None:
 
 def main() -> None:
 
-    # Log start of feature execution
-    logger.info("Starting feature queries execution...")
+    # Log start of queries execution
+    logger.info("Starting queries execution...")
 
     # Define path variables
     ROOT_DIR = pathlib.Path(__file__).parent.resolve()
-    SQL_FEATURES_FOLDER = ROOT_DIR.joinpath("sql_features")
+    SQL_QUERIES_FOLDER = ROOT_DIR.joinpath("sql_queries")
     DATA_FOLDER = ROOT_DIR.joinpath("data")
     DB_PATH = DATA_FOLDER.joinpath('db.sqlite')
 
@@ -51,13 +51,13 @@ def main() -> None:
         connection = sqlite3.connect(DB_PATH)
         logger.info(f"Connected to database: {DB_PATH}")
 
-        # Execute all SQL files in the sql_features folder
-        for sql_file in sorted(SQL_FEATURES_FOLDER.glob("*.sql")):
+        # Execute all SQL files in the sql_queries folder
+        for sql_file in sorted(SQL_QUERIES_FOLDER.glob("*.sql")):
             execute_sql_file(connection, sql_file)
 
-        logger.info("Feature queries execution completed successfully.")
+        logger.info("Queries execution completed successfully.")
     except Exception as e:
-        logger.error(f"Error during feature queries execution: {e}")
+        logger.error(f"Error during queries execution: {e}")
     finally:
         connection.close()
         logger.info("Database connection closed.")
